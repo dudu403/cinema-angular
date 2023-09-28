@@ -1,0 +1,9 @@
+<ngb-pagination
+  class="d-flex justify-content-center"
+  [collectionSize]="totalPages * 5"
+  [(page)]="currentPage"
+  [maxSize]="maxSize"
+  [rotate]="true"
+  [boundaryLinks]="true"
+  (pageChange)="changePage($event)"
+></ngb-pagination>

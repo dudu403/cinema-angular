@@ -1,0 +1,18 @@
+<div
+  class="card h-100"
+  [ngClass]="{
+    'border border-warning': favoritos.favoritosIds.includes(idFilme)
+  }"
+>
+  <a class="link-filme" routerLink="/filmes/detalhes/{{ filme.id }}">
+    <img
+      class="card-img-top"
+      [src]="'https://image.tmdb.org/t/p/original' + filme.cartaz"
+      [alt]="'Filme ' + filme.titulo"
+    />
+    <div class="card-body">
+      <h5 class="card-title titulo-filme">{{ filme.titulo }}</h5>
+    </div>
+  </a>
+</div>
+

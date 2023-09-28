@@ -1,0 +1,31 @@
+<section>
+  <div class="container mt-4 accordion" id="accordionListas">
+    <div class="accordion-item bg-transparent border-0">
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button bg-transparent border-0 pt-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo"
+          aria-expanded="true"
+          aria-controls="collapseTwo"
+        >
+          <h2 class="accordion-button-text mt-4"> 
+            <h2 class="text-purple mt-4">Filmes mais avaliados</h2>
+          </h2>
+        </button>
+      </h2>
+      <div
+        id="collapseTwo"
+        class="accordion-collapse collapse show"
+        data-bs-parent="#accordionExample"
+      >
+        <div class="accordion-body">
+          <div class="row" id="listaFilmesBemAvaliado">
+            <app-lista-filme [tipoLista]="'BemAvaliado'"></app-lista-filme>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

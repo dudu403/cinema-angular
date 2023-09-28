@@ -1,0 +1,20 @@
+.link-filme {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  transition: transform 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.01) rotate(10deg);
+  box-shadow: 0 0 0.2rem rgb(82, 7, 105);
+  border: 2px solid rgb(82, 7, 105); 
+}
+
+.titulo-filme {
+  color: rgb(82, 7, 105);
+}

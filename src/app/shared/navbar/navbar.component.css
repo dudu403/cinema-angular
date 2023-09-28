@@ -1,0 +1,15 @@
+.navbar-toggler:focus {
+  box-shadow: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+  padding-left: 1em;
+  border-radius: 1em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover {
+  transition: background-color 0.3s;
+  background-color: rgb(82, 7, 105);
+}

@@ -1,0 +1,27 @@
+ngb-pagination ::ng-deep a {
+  border: none;
+  background-color: transparent;
+  color: rgb(82, 7, 105) !important;
+}
+
+ngb-pagination ::ng-deep a:hover,
+ngb-pagination ::ng-deep a:focus {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(82, 7, 105) !important;
+  box-shadow: none !important;
+}
+
+ngb-pagination ::ng-deep .page-item.disabled .page-link {
+  color: rgb(82, 7, 105) !important;
+  background-color: transparent;
+}
+
+ngb-pagination ::ng-deep .page-item.active .page-link {
+  color: rgb(82, 7, 105) !important;
+  background-color: transparent;
+}
+
+ngb-pagination ::ng-deep .page-item.active .page-link:focus,
+ngb-pagination ::ng-deep .page-item.active .page-link:hover {
+  color: black !important;
+}

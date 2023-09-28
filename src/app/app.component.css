@@ -1,0 +1,16 @@
+main {
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(
+    circle,
+    #c5b6b6 0%,
+    #a79b9b 6%,
+    #9e9494 15%,
+    #8b8181 44%,
+    #7c7474 100%
+  );
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+}
